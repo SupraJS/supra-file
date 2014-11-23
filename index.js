@@ -1,12 +1,12 @@
-/*       .#.                                                       
-        @@@@@                                                      
-        @@@@@                                                      
-          @                                                        
-    .....@@@                                                       
-   .@@@@@@@                                                        
-   @@@@@@@                                                         
-    @@@@@@@:@@@..@@@@@@@  @@@   @@@ @@@@@@@@   @@@@@@@      @@@@   
-   .@@@@@@@@    @@@@@@@@  @@@   @@@ @@@@@@@@@  @@@@@@@@@  @@@@@@@@ 
+/*       .#.
+        @@@@@
+        @@@@@
+          @
+    .....@@@
+   .@@@@@@@
+   @@@@@@@
+    @@@@@@@:@@@..@@@@@@@  @@@   @@@ @@@@@@@@   @@@@@@@      @@@@
+   .@@@@@@@@    @@@@@@@@  @@@   @@@ @@@@@@@@@  @@@@@@@@@  @@@@@@@@
    '@@@@@@@@@@@@@@@       @@@   @@@ @@@    @@@ @@@   @@@ @@@    @@@
 :@@@@@@@@@:     @@@@@@@@  @@@   @@@ @@@@@@@@@  @@@@@@@@@ @@@    @@@
   `@@@@:             @@@  @@@   @@@ @@@#@@@    @@@@@@@@  @@@@@@@@@@
@@ -18,7 +18,7 @@
   Developer
   Friendly
   Framework.
-  
+
   File Class File
   */
  var exts = require('./exts.js')
@@ -29,7 +29,7 @@ module.exports = Supra.Class.extend({
    * @param  {String}   path     File path
    * @param  {Object}   res      HTTP response
    * @param  {Function} callback Will be called if the file exists fail.
-   * @return {Object} File Class 
+   * @return {Object} File Class
    */
   init : function(path,res,callback){
     this.res = res;
